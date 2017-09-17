@@ -13,8 +13,9 @@
     "node": ">=4"
   },
   "scripts": {
-		"test": "xo && nyc ava",
-		"test:travis": "yarn test && nyc report --reporter=text-lcov > coverage.lcov && codecov"
+		"release": "git pull && standard-version",
+    "test": "xo && nyc ava",
+    "test:travis": "yarn test && nyc report --reporter=text-lcov > coverage.lcov && codecov"
   },
   "files": [
     "app"
@@ -47,6 +48,7 @@
     "codecov": "2.3.0",
     "nyc": "11.2.1",
     "pify": "3.0.0",
+    "standard-version": "4.2.0",
     "xo": "*",
     "yeoman-assert": "3.0.0",
     "yeoman-test": "1.7.0"
