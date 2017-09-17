@@ -35,7 +35,7 @@ $ yo phinm --help
     --skip-install  # Do not automatically install dependencies           Default: false
     --org           # Publish to a GitHub organization account
     --cli           # Add a CLI
-		--appveyor      # Add Appveyor config file
+    --appveyor      # Add Appveyor config file
     --coverage      # Add code coverage with nyc
     --codecov       # Upload coverage to codecov.io (implies --coverage)
 ```
