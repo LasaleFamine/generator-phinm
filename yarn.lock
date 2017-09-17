@@ -3096,7 +3096,7 @@ mem@^1.1.0:
   dependencies:
     mimic-fn "^1.0.0"
 
-meow@^3.0.0, meow@^3.3.0, meow@^3.4.2, meow@^3.7.0:
+meow@^3.3.0, meow@^3.4.0, meow@^3.4.2, meow@^3.7.0:
   version "3.7.0"
   resolved "https://registry.yarnpkg.com/meow/-/meow-3.7.0.tgz#72cb668b425228290abbfa856892587308a801fb"
   dependencies:
@@ -3255,16 +3255,7 @@ normalize-path@^2.0.0, normalize-path@^2.0.1:
   dependencies:
     remove-trailing-separator "^1.0.1"
 
-normalize-url@1.2.0:
-  version "1.2.0"
-  resolved "https://registry.yarnpkg.com/normalize-url/-/normalize-url-1.2.0.tgz#6e0893fc7b9ec03e55e9e728d35cded6a048fd43"
-  dependencies:
-    object-assign "^2.0.0"
-    prepend-http "^1.0.0"
-    query-string "^1.0.0"
-    sort-keys "^1.0.0"
-
-normalize-url@^1.0.0:
+normalize-url@1.9.1, normalize-url@^1.0.0:
   version "1.9.1"
   resolved "https://registry.yarnpkg.com/normalize-url/-/normalize-url-1.9.1.tgz#2cc0d66b31ea23036458436e3620d85954c66c3c"
   dependencies:
@@ -3691,10 +3682,6 @@ q@^1.4.1:
 qs@~6.4.0:
   version "6.4.0"
   resolved "https://registry.yarnpkg.com/qs/-/qs-6.4.0.tgz#13e26d28ad6b0ffaa91312cd3bf708ed351e7233"
-
-query-string@^1.0.0:
-  version "1.0.1"
-  resolved "https://registry.yarnpkg.com/query-string/-/query-string-1.0.1.tgz#63ac953352499ad670a9681a75680f6bf3dd1faf"
 
 query-string@^4.1.0:
   version "4.3.4"
@@ -4174,6 +4161,10 @@ split@^1.0.0:
   dependencies:
     through "2"
 
+sprintf-js@^1.0.3:
+  version "1.1.1"
+  resolved "https://registry.yarnpkg.com/sprintf-js/-/sprintf-js-1.1.1.tgz#36be78320afe5801f6cea3ee78b6e5aab940ea0c"
+
 sprintf-js@~1.0.2:
   version "1.0.3"
   resolved "https://registry.yarnpkg.com/sprintf-js/-/sprintf-js-1.0.3.tgz#04e6926f662895354f3dd015203633b857297e2c"
@@ -4196,7 +4187,7 @@ stack-utils@^1.0.0:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/stack-utils/-/stack-utils-1.0.1.tgz#d4f33ab54e8e38778b0ca5cfd3b3afb12db68620"
 
-standard-version@^4.2.0:
+standard-version@4.2.0:
   version "4.2.0"
   resolved "https://registry.yarnpkg.com/standard-version/-/standard-version-4.2.0.tgz#3017e8c5ced2a92db7501790255c3ba85157375d"
   dependencies:
@@ -4306,11 +4297,11 @@ strip-url-auth@^1.0.0:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/strip-url-auth/-/strip-url-auth-1.0.1.tgz#22b0fa3a41385b33be3f331551bbb837fa0cd7ae"
 
-superb@1.1.3:
-  version "1.1.3"
-  resolved "https://registry.yarnpkg.com/superb/-/superb-1.1.3.tgz#a0ede0f0c9df0c297690278a752688abf511824c"
+superb@1.3.0:
+  version "1.3.0"
+  resolved "https://registry.yarnpkg.com/superb/-/superb-1.3.0.tgz#55072fa521220d14876b4630e0822024353106ba"
   dependencies:
-    meow "^3.0.0"
+    meow "^3.4.0"
     unique-random-array "^1.0.0"
 
 supports-color@^2.0.0:
@@ -4534,9 +4525,12 @@ uid2@0.0.3:
   version "0.0.3"
   resolved "https://registry.yarnpkg.com/uid2/-/uid2-0.0.3.tgz#483126e11774df2f71b8b639dcd799c376162b82"
 
-underscore.string@3.0.3:
-  version "3.0.3"
-  resolved "https://registry.yarnpkg.com/underscore.string/-/underscore.string-3.0.3.tgz#4617b8c1a250cf6e5064fbbb363d0fa96cf14552"
+underscore.string@3.3.4:
+  version "3.3.4"
+  resolved "https://registry.yarnpkg.com/underscore.string/-/underscore.string-3.3.4.tgz#2c2a3f9f83e64762fdc45e6ceac65142864213db"
+  dependencies:
+    sprintf-js "^1.0.3"
+    util-deprecate "^1.0.2"
 
 unique-random-array@^1.0.0:
   version "1.0.0"
@@ -4609,7 +4603,7 @@ user-home@^2.0.0:
   dependencies:
     os-homedir "^1.0.0"
 
-util-deprecate@~1.0.1:
+util-deprecate@^1.0.2, util-deprecate@~1.0.1:
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/util-deprecate/-/util-deprecate-1.0.2.tgz#450d4dc9fa70de732762fbd2d4a28981419a0ccf"
 
