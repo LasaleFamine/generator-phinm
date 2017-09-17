@@ -1,4 +1,6 @@
-# generator-phinm [![Build Status](https://travis-ci.org/LasaleFamine/generator-phinm.svg?branch=master)](https://travis-ci.org/LasaleFamine/generator-phinm)
+# generator-phinm
+[![Build Status](https://travis-ci.org/LasaleFamine/generator-phinm.svg?branch=master)](https://travis-ci.org/LasaleFamine/generator-phinm)
+[![codecov](https://codecov.io/gh/LasaleFamine/generator-phinm/branch/master/graph/badge.svg)](https://codecov.io/gh/LasaleFamine/generator-phinm)
 
 > Scaffold out a node module. Inspired and forked from [sindresorhus/generator-nm](https://github.com/sindresorhus/generator-nm)
 

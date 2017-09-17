@@ -1,0 +1,62 @@
+{
+	"name": "<%= moduleName %>",
+	"version": "0.0.0",
+	"description": "<%= moduleDescription %>",
+	"license": "MIT",
+	"repository": "<%= githubUsername %>/<%= repoName %>",
+	"bugs": {
+    "url": "https://github.com/<%= githubUsername %>/<%= repoName %>/issues",
+    "email": "<%= email %>"
+	},
+	"homepage": "https://github.com/<%= githubUsername %>/<%= repoName %>",
+	"author": {
+		"name": "<%= name %>",
+		"email": "<%= email %>",
+		"url": "<%= humanizedWebsite %>"
+	},<% if (cli) { %>
+	"bin": "src/cli.js",<% } %>
+	"engines": {
+		"node": ">=6"
+	},
+	"scripts": {
+		"release": "git pull && standard-version",
+		"test": "xo && <% if (nyc) { %>nyc <% } %>ava"<% if (codecov) { %>,
+		"test:travis": "yarn test && nyc report --reporter=text-lcov > coverage.lcov && codecov"<% } %>
+	},
+	"files": [
+		"src"
+	],
+	"keywords": [<% if (cli) { %>
+		"cli-app",
+		"cli",<% } %>
+		""
+	],
+	"dependencies": {<% if (cli) { %>
+		"meow": "3.7.0"
+	<% } %>},
+	"devDependencies": {
+		"ava": "0.20.0",<% if (codecov) { %>
+		"codecov": "2.2.0",<% } %><% if (nyc) { %>
+		"nyc": "11.0.0",<% } %>
+		"xo": "0.18.2",
+		"standard-version": "4.2.0"
+	},
+	"xo": {
+		"rules": {
+			"max-len": [
+        "error",
+        {
+          "code": 80,
+          "ignoreUrls": true
+        }
+			],
+			"capitalized-comments": "off"
+		}
+	}<% if (codecov) { %>,
+	"nyc": {
+		"reporter": [
+			"lcov",
+			"text"
+		]
+	}<% } %>
+}
