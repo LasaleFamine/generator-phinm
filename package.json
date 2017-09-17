@@ -1,6 +1,6 @@
 {
   "name": "generator-phinm",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Scaffold out a node module",
   "license": "MIT",
   "repository": "LasaleFamine/generator-phinm",
@@ -13,7 +13,7 @@
     "node": ">=4"
   },
   "scripts": {
-		"release": "git pull && standard-version",
+    "release": "git pull && standard-version",
     "test": "xo && nyc ava",
     "test:travis": "yarn test && nyc report --reporter=text-lcov > coverage.lcov && codecov"
   },
