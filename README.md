@@ -1,4 +1,6 @@
 # generator-phinm
+
+[![Greenkeeper badge](https://badges.greenkeeper.io/LasaleFamine/generator-phinm.svg)](https://greenkeeper.io/)
 [![Build Status](https://travis-ci.org/LasaleFamine/generator-phinm.svg?branch=master)](https://travis-ci.org/LasaleFamine/generator-phinm)
 [![codecov](https://codecov.io/gh/LasaleFamine/generator-phinm/branch/master/graph/badge.svg)](https://codecov.io/gh/LasaleFamine/generator-phinm)
 
