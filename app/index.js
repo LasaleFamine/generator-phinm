@@ -136,6 +136,6 @@ module.exports = class extends Generator {
 		this.spawnCommandSync('git', ['init']);
 	}
 	install() {
-		this.installDependencies({npm:false, bower: false, yarn: true});
+		this.installDependencies({npm: false, bower: false, yarn: true});
 	}
 };
