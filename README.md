@@ -13,7 +13,7 @@ You need [yo](https://github.com/yeoman/yo) to use the generator.
 ## Install
 
 ```
-$ npm install --global yo generator-phinm
+$ yarn add global yo generator-phinm
 ```
 
 

@@ -7,7 +7,7 @@
 ## Install
 
 ```
-$ npm install <%= moduleName %>
+$ yarn add <%= moduleName %>
 ```
 
 
