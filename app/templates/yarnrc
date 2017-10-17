@@ -1,1 +1,1 @@
-save-exact false
+save-exact <% if (saveprefix) { %>true<% } else { %>false<% } %>
