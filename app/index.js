@@ -89,7 +89,7 @@ module.exports = class extends Generator {
 			name: 'saveprefix',
 			message: 'Set save-prefix in .yarnrc file to true?',
 			type: 'confirm',
-			default: Boolean(this.options.saveprefix),
+			default: Boolean(this.options.saveprefix)
 		}]).then(props => {
 			const or = (option, prop) => this.options[option] === undefined ? props[prop || option] : this.options[option];
 
@@ -148,6 +148,6 @@ module.exports = class extends Generator {
 		this.spawnCommandSync('git', ['init']);
 	}
 	install() {
-		this.installDependencies({ npm: false, bower: false, yarn: true });
+		this.installDependencies({npm: false, bower: false, yarn: true});
 	}
 };
