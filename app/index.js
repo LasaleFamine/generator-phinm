@@ -34,11 +34,6 @@ module.exports = class extends Generator {
 			type: 'boolean',
 			desc: 'Upload coverage to codecov.io (implies coverage)'
 		});
-
-		this.option('saveprefix', {
-			type: 'boolean',
-			desc: 'Configure how versions of packages installed to a package.json file via --save or --save-dev get prefixed.'
-		});
 	}
 	init() {
 		return this.prompt([{
@@ -85,11 +80,6 @@ module.exports = class extends Generator {
 			type: 'confirm',
 			default: false,
 			when: x => (x.nyc || this.options.coverage) && (this.options.codecov === undefined)
-		}, {
-			name: 'saveprefix',
-			message: 'Set save-prefix in .yarnrc file to true?',
-			type: 'confirm',
-			default: Boolean(this.options.saveprefix)
 		}]).then(props => {
 			const or = (option, prop) => this.options[option] === undefined ? props[prop || option] : this.options[option];
 
@@ -97,7 +87,6 @@ module.exports = class extends Generator {
 			const appveyor = or('appveyor');
 			const codecov = or('codecov');
 			const nyc = codecov || or('coverage', 'nyc');
-			const saveprefix = or('saveprefix');
 
 			const repoName = utils.repoName(props.moduleName);
 
@@ -113,8 +102,7 @@ module.exports = class extends Generator {
 				humanizedWebsite: humanizeUrl(props.website),
 				cli,
 				nyc,
-				codecov,
-				saveprefix
+				codecov
 			};
 
 			const mv = (from, to) => {

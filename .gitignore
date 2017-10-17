@@ -2,4 +2,3 @@ node_modules
 temp
 .nyc_output
 coverage
-package-lock.json
