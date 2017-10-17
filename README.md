@@ -40,6 +40,7 @@ $ yo phinm --help
     --appveyor      # Add Appveyor config file
     --coverage      # Add code coverage with nyc
     --codecov       # Upload coverage to codecov.io (implies --coverage)
+    --saveprefix    # Configure how versions of packages installed to a package.json file via --save or --save-dev get prefixed
 ```
 
 The `--org` option takes a string value (i.e. `--org=avajs`). All others are boolean flags and can be negated with the `no` prefix (i.e. `--no-codecov`). You will be prompted for any options not passed on the command-line.
