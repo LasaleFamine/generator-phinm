@@ -2,6 +2,16 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="1.0.5"></a>
+## [1.0.5](https://github.com/LasaleFamine/generator-phinm/compare/v1.0.4...v1.0.5) (2017-11-02)
+
+
+### Bug Fixes
+
+* **package:** update superb to version 2.0.0 ([fa8b8e9](https://github.com/LasaleFamine/generator-phinm/commit/fa8b8e9))
+
+
+
 <a name="1.0.4"></a>
 ## [1.0.4](https://github.com/LasaleFamine/generator-phinm/compare/v1.0.3...v1.0.4) (2017-10-01)
 

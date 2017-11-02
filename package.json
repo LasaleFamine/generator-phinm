@@ -1,6 +1,6 @@
 {
   "name": "generator-phinm",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Scaffold out a node module",
   "license": "MIT",
   "repository": "LasaleFamine/generator-phinm",
