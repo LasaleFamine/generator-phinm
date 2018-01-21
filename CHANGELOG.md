@@ -2,6 +2,18 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="1.0.6"></a>
+## [1.0.6](https://github.com/LasaleFamine/generator-phinm/compare/v1.0.5...v1.0.6) (2018-01-21)
+
+
+### Bug Fixes
+
+* **package:** update normalize-url to version 2.0.0 ([a9e80c9](https://github.com/LasaleFamine/generator-phinm/commit/a9e80c9))
+* **package:** update normalize-url to version 2.0.1 ([6f14a0e](https://github.com/LasaleFamine/generator-phinm/commit/6f14a0e))
+* **package:** update yeoman-generator to version 2.0.2 ([6dcb71d](https://github.com/LasaleFamine/generator-phinm/commit/6dcb71d))
+
+
+
 <a name="1.0.5"></a>
 ## [1.0.5](https://github.com/LasaleFamine/generator-phinm/compare/v1.0.4...v1.0.5) (2017-11-02)
 
