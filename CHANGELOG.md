@@ -2,6 +2,23 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="1.1.0"></a>
+# [1.1.0](https://github.com/LasaleFamine/generator-phinm/compare/v1.0.6...v1.1.0) (2018-05-14)
+
+
+### Bug Fixes
+
+* **package:** update yeoman-generator to version 2.0.3 ([7f34f60](https://github.com/LasaleFamine/generator-phinm/commit/7f34f60))
+* **package:** update yeoman-generator to version 2.0.4 ([49ccdb0](https://github.com/LasaleFamine/generator-phinm/commit/49ccdb0))
+
+
+### Features
+
+* **improvements:** update deps of the template and engine ([577e6c0](https://github.com/LasaleFamine/generator-phinm/commit/577e6c0))
+* **improvements:** update to >= 8 node engine ([b52647b](https://github.com/LasaleFamine/generator-phinm/commit/b52647b))
+
+
+
 <a name="1.0.6"></a>
 ## [1.0.6](https://github.com/LasaleFamine/generator-phinm/compare/v1.0.5...v1.0.6) (2018-01-21)
 
