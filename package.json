@@ -10,7 +10,7 @@
     "url": "https://godev.space"
   },
   "engines": {
-    "node": ">=4"
+    "node": ">=8"
   },
   "scripts": {
     "release": "git pull && standard-version",
