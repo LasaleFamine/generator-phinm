@@ -46,7 +46,7 @@
   "devDependencies": {
     "ava": "*",
     "codecov": "3.2.0",
-    "nyc": "13.2.0",
+    "nyc": "13.3.0",
     "pify": "4.0.1",
     "standard-version": "4.4.0",
     "xo": "*",
