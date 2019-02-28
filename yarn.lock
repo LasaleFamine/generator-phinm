@@ -2661,10 +2661,10 @@ grouped-queue@^0.3.3:
   dependencies:
     lodash "^4.17.2"
 
-handlebars@^4.0.11:
-  version "4.0.12"
-  resolved "https://registry.yarnpkg.com/handlebars/-/handlebars-4.0.12.tgz#2c15c8a96d46da5e266700518ba8cb8d919d5bc5"
-  integrity sha512-RhmTekP+FZL+XNhwS1Wf+bTTZpdLougwt5pcgA1tuz6Jcx0fpH/7z0qd71RKnZHBCxIRBHfBOnio4gViPemNzA==
+handlebars@^4.1.0:
+  version "4.1.0"
+  resolved "https://registry.yarnpkg.com/handlebars/-/handlebars-4.1.0.tgz#0d6a6f34ff1f63cecec8423aa4169827bf787c3a"
+  integrity sha512-l2jRuU1NAWK6AW5qqcTATWQJvNPEwkM7NEKSiv/gqOsoSQbVoWyqVEY5GS+XPQ88zLNmqASRpzfdm8d79hJS+w==
   dependencies:
     async "^2.5.0"
     optimist "^0.6.1"
@@ -5202,10 +5202,10 @@ stack-utils@^1.0.0:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/stack-utils/-/stack-utils-1.0.1.tgz#d4f33ab54e8e38778b0ca5cfd3b3afb12db68620"
 
-standard-version@5.0.0:
-  version "5.0.0"
-  resolved "https://registry.yarnpkg.com/standard-version/-/standard-version-5.0.0.tgz#b4543fbf1e7e2ef70a7085150c5b0a91eb754c97"
-  integrity sha512-ODn74fVhNVxmVD65YaNour7pHmJ/7fXuINPsTha2OndLmrajBmUz2q1Ah5s7lChTzWUe78F6uinRMpiSxvZKfw==
+standard-version@5.0.1:
+  version "5.0.1"
+  resolved "https://registry.yarnpkg.com/standard-version/-/standard-version-5.0.1.tgz#b2b2e858379c75b7da25fbc1cdafe8b6f36810d3"
+  integrity sha512-nlab5/C0P1Zd5k/2Zer/Y8xDnyf9kHES8Hy82aO8owJG9TJb3KbdNNOBNAgfa/ZsiDlJE9WQTGm1yN2VM1qxTg==
   dependencies:
     chalk "^2.4.1"
     conventional-changelog "^3.0.6"
