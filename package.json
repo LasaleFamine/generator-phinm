@@ -37,7 +37,7 @@
   ],
   "dependencies": {
     "humanize-url": "2.0.0",
-    "is-scoped": "1.0.0",
+    "is-scoped": "2.1.0",
     "normalize-url": "4.3.0",
     "superb": "3.0.0",
     "underscore.string": "3.3.5",
@@ -45,7 +45,7 @@
   },
   "devDependencies": {
     "ava": "*",
-    "codecov": "3.2.0",
+    "codecov": "3.3.0",
     "nyc": "13.3.0",
     "pify": "4.0.1",
     "standard-version": "5.0.0",
