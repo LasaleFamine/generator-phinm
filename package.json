@@ -44,7 +44,7 @@
     "yeoman-generator": "4.3.0"
   },
   "devDependencies": {
-    "ava": "*",
+    "ava": ">=3.0.0",
     "codecov": "3.3.0",
     "nyc": "14.0.0",
     "pify": "4.0.1",
