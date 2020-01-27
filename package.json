@@ -41,7 +41,7 @@
     "normalize-url": "4.3.0",
     "superb": "3.0.0",
     "underscore.string": "3.3.5",
-    "yeoman-generator": "4.3.0"
+    "yeoman-generator": "4.5.0"
   },
   "devDependencies": {
     "ava": "*",
