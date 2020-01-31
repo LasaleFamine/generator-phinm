@@ -38,7 +38,7 @@
   "dependencies": {
     "humanize-url": "2.0.0",
     "is-scoped": "2.1.0",
-    "normalize-url": "4.3.0",
+    "normalize-url": "5.0.0",
     "superb": "3.0.0",
     "underscore.string": "3.3.5",
     "yeoman-generator": "4.3.0"
