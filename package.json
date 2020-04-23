@@ -36,7 +36,7 @@
     "phi"
   ],
   "dependencies": {
-    "humanize-url": "2.0.0",
+    "humanize-url": "2.1.0",
     "is-scoped": "2.1.0",
     "normalize-url": "4.3.0",
     "superb": "3.0.0",
